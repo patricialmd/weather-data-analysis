@@ -67,7 +67,7 @@ Result:
 * The model is 77.43% accurate (overall accuracy or error rate: Low, Moderate, High) in performing correct predictions across the entire dataset. The overall precision rate is 71.74%, overall recall rate is 61.10%, and overall F1 score is 63.15% which gives a lower value. It means that the model is performing well in predicting the mean temperatures of each day but may have issues in determining classes correctly.
 
 ## Code
-See weather.ipynb for full analysis including data cleaning, feature engineering, visualisations, and modelling
+See weather_logistic_multiclass_classification.ipynb for full analysis including data cleaning, feature engineering, modeling, and visualisation.
 
 ## Practical Takeaways
 * **Model performs moderately well with 77% accuracy** The logistic regression model correctly classifies temperature categories (Low, Moderate, High) about 3 out of 4 times, which is reasonable for weather prediction with basic meteorological features.
