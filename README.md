@@ -14,13 +14,14 @@ Other imports: train_test_split, LogisticRegression, metrics, accuracy_score, cl
 Machine Learning Model: Logistic Regression Multiclass Classification
 
 ## Data
-**| # | Variable | Description |**
+| # | Variable | Description |
+|---|----------|-------------|
 | 1 | date | Month, day, and year of every weather observation |
 | 2 | cloud_cover | The area covered by clouds in the sky  |
 | 3 | sunshine | Duration of sunshine measured in hours |
 | 4 | global_radiation | Amount of energy from the sun that reached the ground |
 | 5 | max_temp | Maximum temperature of the day |
-| 6 | mean_temp | Mean temperature of the day | 
+| 6 | mean_temp | Mean temperature of the day |
 | 7 | min_temp | Minimum temperature of the day |
 | 8 | precipitation | Amount of rainfall measured in millimeters |
 | 9 | pressure | Atmospheric pressure |
@@ -34,7 +35,8 @@ Cleaned dataset: 13,843 rows x 10 variables
 * Converted the data type of date from "integer" to "date"
 
 ## Key Features Created
-**| # | Variable | Description |**
+| # | Variable | Description |
+|---|----------|-------------|
 | 1 | month_January | "1" means January, "0" means not January |
 | 2 | month_February | "1" means February, "0" means not February |
 | 3 | month_March | "1" means March, "0" means not March |
