@@ -61,9 +61,9 @@ The predictors or X variables used are cloud cover, sunshine, global radiation, 
 
 I used the lbfgs for the solver to get the local minimum and multinomial for the multiclass as there are three classes: low, moderate, and high. 
 
+Result: 
 The confusion matrix shows that the model is doing good. The diagonal elements showing the values 352, 87, and 1708 mean that the model correctly labeled the predicted class. The off-diagonal elements display the wrong predictions that the model classified. In the first row, the model correctly classified 352 mean temperatures as high out of all the 503 high mean temperatures but misclassified 151 as moderate. In the second row, the model correctly classified 87 mean temperatures as low out of all the 369 low mean temperatures but labeled 282 as moderate. In the third row, the model correctly classified 1708 mean temperatures as moderate out of all the 1897 moderate mean temperatures but misclassified 143 as high and 46 as low. All in all, the total number of correct predictions is 2147 and the total number of incorrect predictions is 622. 
 
-Result: 
 * Overall Accuracy or Error Rate: 77.43% (Low, Moderate, High)
 * Overall Precision: 71.74%
 * Overall Recall: 61.10%
